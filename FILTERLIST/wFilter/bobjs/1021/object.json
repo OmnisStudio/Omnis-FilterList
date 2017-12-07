@@ -1,0 +1,30 @@
+{
+	"ident": 1021,
+	"order": 16386,
+	"objtype": "kText",
+	"properties": {
+		"align": "kLeftJst",
+		"backcolor": "kColor3DFace",
+		"backpattern": 1,
+		"designactive": true,
+		"edgefloat": "kEFrightTopBottom",
+		"fieldstyle": "OMNISfield",
+		"font": 5,
+		"fontsize": 9,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorForeFill",
+		"height": 45,
+		"left": 5,
+		"objlink": 0,
+		"text": {
+			"type": 14,
+			"calc": "Enter a Value and press 'Filter' to display only those rows with iCol1 equal to Value.  Press Unfilter to remove the last filter from the list."
+		},
+		"textcolor": "kColorWindowText",
+		"top": 160,
+		"userinfo": "",
+		"vertcentertext": false,
+		"visible": true,
+		"width": 403
+	}
+}

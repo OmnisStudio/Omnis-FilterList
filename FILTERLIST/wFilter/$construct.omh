@@ -1,0 +1,16 @@
+;  Enter your initialization code here
+
+Do iList.$define(iCol1,iCol2,iCol3)
+Do iList.$add(10,20,30)
+Do iList.$add(20,50,60)
+Do iList.$add(20,50,'')
+Do iList.$add(10,50,'')
+Do iList.$add(10,50,60)
+Do iList.$add(20,30,75)
+Do iList.$add(50,50,50)
+Do iList.$add(50,60,90)
+
+
+Do iList.$smartlist.$assign(kTrue)
+
+Calculate iCol1FilterVal as 10

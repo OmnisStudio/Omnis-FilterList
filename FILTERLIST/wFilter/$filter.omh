@@ -1,0 +1,6 @@
+If iFiltered=1
+	Do method $unfilter     ;; clears the current filter if set
+End If
+Do iList.$filter(iCol1=iCol1FilterVal)
+Do $cwind.$redraw()
+Calculate iFiltered as 1
